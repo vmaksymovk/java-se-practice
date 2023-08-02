@@ -9,7 +9,7 @@ public class ex6DecimalComparator {
     }
 
     public static boolean areEqualByThreeDecimalPlaces(double num1, double num2) {
-        int precision = 1000; 
+        int precision = 1000;
         int num1Scaled = (int) (num1 * precision);
         int num2Scaled = (int) (num2 * precision);
 
