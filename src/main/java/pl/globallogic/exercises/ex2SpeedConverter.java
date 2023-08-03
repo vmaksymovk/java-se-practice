@@ -14,7 +14,7 @@ public class ex2SpeedConverter {
             System.out.println(toMilesPerHour(kilometersPerHour3));
             System.out.println(toMilesPerHour(kilometersPerHour4));
             System.out.println(toMilesPerHour(kilometersPerHour5));
-
+            // metoda 2
             printConversion(kilometersPerHour1);
             printConversion(kilometersPerHour2);
             printConversion(kilometersPerHour3);
@@ -26,7 +26,7 @@ public class ex2SpeedConverter {
             if (kilometersPerHour < 0) {
                 return -1;
             }
-            return Math.round(kilometersPerHour / 0.621371);
+            return Math.round(kilometersPerHour / 0.621371); // przeliczenie nam mile
         }
 
         public static void printConversion(double kilometersPerHour) {
