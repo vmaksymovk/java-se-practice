@@ -18,7 +18,6 @@ public class ex22GreatestCommonDivisor {
             second = first % second;
             first = temp;
         }
-
         return first;
     }
 }

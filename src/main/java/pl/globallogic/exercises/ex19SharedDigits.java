@@ -21,7 +21,6 @@ public class ex19SharedDigits {
 
         return false;
     }
-
     public static boolean isValidRange(int num) {
         return num >= 10 && num <= 99;
     }
