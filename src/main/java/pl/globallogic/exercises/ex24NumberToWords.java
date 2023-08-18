@@ -6,8 +6,8 @@ public class ex24NumberToWords {
         numberToWords(1010);
         numberToWords(1000);
         numberToWords(-12);
-    }
 
+    }
     public static void numberToWords(int number) {
         if (number < 0) {
             System.out.println("Invalid Value");
